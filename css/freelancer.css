@@ -131,6 +131,10 @@ header .intro-text .skills {
   }
 
 }
+#pagoexpress .intro-text{
+    font-size: 4.75em;
+    font-family: 'Raleway', sans-serif;
+}
 #paso1 {
   background-image: url("/verduritaexpress/img/bell-pepper-569070_1920.jpg");  
   background-position: top;
