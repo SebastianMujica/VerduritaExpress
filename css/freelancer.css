@@ -27,10 +27,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
 }
+
 hr.star-light,
 hr.star-primary {
   padding: 0;
@@ -104,47 +105,24 @@ header img.logo {
   background-color: rgba(0,0,0,0.8);
   
 }
-header .intro-text .skills {
-  font-size: 1.25em;
-  font-weight: 300;
-}
-
-@media (min-width: 768px) {
-  header .container {
-    padding-top: 200px;
-    padding-bottom: 100px;
-
-  }
-  header .intro-text .name {
-    font-size: 4.75em;
-  }
-  header .intro-text .skills {
-    font-size: 1.75em;
-    font-family: 'Raleway', sans-serif;
-  }
-  #contact .intro-text .name {
-    font-size: 4.75em;
-  }
-  #contact .intro-text .skills {
-    font-size: 1.75em;
-    font-family: 'Raleway', sans-serif;
-  }
-
+h2 {
+    font-family: 'Playfair Display', serif;
+    
 }
 #pagoexpress .intro-text{
     font-size: 4.75em;
     font-family: 'Raleway', sans-serif;
 }
+#pagoexpress .skills{
+    font-size: 0.75em;
+    font-family: 'Playfair Display', serif;
+}
 #paso1 {
-  background-image: url("/verduritaexpress/img/bell-pepper-569070_1920.jpg");  
-  background-position: top;
-  background-size: 100%;
-  background-repeat: no-repeat;
   
   }
 .navbar-custom {
-  background: #000000;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #239437;
+  font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   border: none;
@@ -173,16 +151,16 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-nav li a:focus,
 .navbar-custom .navbar-nav li a:active {
-  color: white;
+  color: black;
 }
 .navbar-custom .navbar-nav li.active a {
-  color: white;
+  color: black;
   background: #ffffff;
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
-  color: white;
+  color: black;
   background: #ffffff;
 }
 .navbar-custom .navbar-toggle {
@@ -342,14 +320,14 @@ footer h3 {
 }
 footer .footer-above {
   padding-top: 50px;
-  background-color: #000000;
+  background-color: #239437;
 }
 footer .footer-col {
   margin-bottom: 50px;
 }
 footer .footer-below {
   padding: 25px 0;
-  background-color: black;
+  background-color: #239437;
 }
 .btn-outline {
   color: white;
